@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.nav1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #131921;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav2{
+    height: 39px;
+    background-color: #232f3f;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.nav1 div{
+    display: inline-flex;
+    margin: 2px;
+}
+
+.form{
+    position: relative;
+    height: 40px;
+    border: 2px solid #f08804;
+    border-radius: 3px;
+    width: 430px;
+}
+.in3{
+    display: flex;
+    justify-content: center;
+    width: 430px;
+}
+.form button {
+    border-radius: 2px 0px 0px 2px;
+    height: 40px;
+}
+.form input {
+    height: 40px;
+    width: auto;
+}
+.form .um{
+    width: 100%;
+}
+.dois{
+    border-radius: 0 2px 2px 0;
+}
+
+input:focus{
+    border:none;
+    outline: 0;
+    padding-left: 6px;
+    font-size: 14px;
+    color:#f08804;
+}
+a{
+    color: white;
+    padding: 4px;
+}
+a:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    color:white;
+}
+.form button{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.nav2 h2{
+    color: white;
+    flex-wrap: nowrap;
+}
+.nav2 .en2 li {
+    margin:0px;
+    color:white
+}
+.nav2 .en2 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nav2 .en1{
+    width: auto;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nav2 .en1 a{
+    color: white;
+    margin-left: 10px;
+}
+.nav2 .en1 a i{
+    margin-right: 3px;
+}
+.nav2 .en2{
+    width: auto;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nav2 .en3{
+    width: auto;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: end;
+}
+.carrossel{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    animation: slide 20s infinite ease-out;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    object-fit: cover;
+}
+.carrossel img{
+    position: relative;
+    height: 568px;
+    width: 100%;
+    object-fit: cover;
+}
+.corpo{
+    height: 800px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.carrossel:hover{
+    border: none;
+}
+.aoba{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    display: inline-flex;
+    flex:none;
+    position: relative;
+}
+@keyframes slide {
+    27%{left: 0;}
+    33%{left:-100%}
+    60%{left:-100%;}
+    66%{left:-200%;}
+    94%{left:-200%;}
+    100%{left:-300%;}
+}
+.produtos{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.caixa{
+    width: 30%;
+    height: 420px;
+    margin: 2.5%;
+    background-color: white;
+    border-radius: 1px;
+    padding: 20px;
+    object-fit: cover;
+}
+.alexas1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.alexas2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.alexas1:hover{
+    border: none;
+}
+.alexas2:hover{
+    border: none;
+}
+.subcaixa3{
+    display: flex;
+    justify-content: space-around;
+}
+.subcaixa3 p{
+    color: black;
+}
+.caixa a:hover{
+    border: none;
+}
+.caixa img{
+    padding: 0;
+}
+.div1{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.en3{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
